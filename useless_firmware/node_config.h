@@ -63,22 +63,42 @@
 // For each motor:
 // 6. Trough Pyluos, set the motor to 90°, mount the output shaft to the robot moving parts
 // 7. Test the min and max limit of the motor, then put it on this file
+// For the hatcha nd finger:
 // 8. Close the hatch and move the finger to slightly touch the hatch, save the finger angle in the FINGER_REACH_HATCH
 // 9. Open the hatch and move the finger to be as close as possible from the hatch surface
 // 10. Move the Hatch to slightly touch the finger, save the hatch angle in the HATCH_MIN_OPEN
 // 11. Flash the board and you should be good to go
-#define HATCH_MIN_ANGLE 68.0f
-#define HATCH_MAX_ANGLE 132.0f
+#define HATCH_MIN_ANGLE 77.0f
+#define HATCH_MAX_ANGLE 110.0f
 #define HATCH_DIRECTION 0
 
-#define FINGER_MIN_ANGLE 10.0f
-#define FINGER_MAX_ANGLE 135.0f
+#define FINGER_MIN_ANGLE 30.0f
+#define FINGER_MAX_ANGLE 155.0f
 #define FINGER_DIRECTION 0
 
-#define BONUS_HATCH_MIN_ANGLE 27.0f
-#define BONUS_HATCH_MAX_ANGLE 130.0f
+#define BONUS_HATCH_MIN_ANGLE 40.0f
+#define BONUS_HATCH_MAX_ANGLE 125.0f
 #define BONUS_HATCH_DIRECTION 0
 
-#define FINGER_REACH_HATCH 24.0f
-#define HATCH_MIN_OPEN     125.0f
+#define FINGER_REACH_HATCH 36.0f
+#define HATCH_MIN_OPEN     100.0f
+
+/*******************************************************************************
+ * Leo's config
+ *******************************************************************************/
+// #define HATCH_MIN_ANGLE 66.0f
+// #define HATCH_MAX_ANGLE 132.0f
+// #define HATCH_DIRECTION 0
+
+// #define FINGER_MIN_ANGLE 10.0f
+// #define FINGER_MAX_ANGLE 135.0f
+// #define FINGER_DIRECTION 0
+
+// #define BONUS_HATCH_MIN_ANGLE 27.0f
+// #define BONUS_HATCH_MAX_ANGLE 130.0f
+// #define BONUS_HATCH_DIRECTION 0
+
+// #define FINGER_REACH_HATCH 24.0f
+// #define HATCH_MIN_OPEN     125.0f
+
 #endif /* _NODE_CONFIG_H_ */
